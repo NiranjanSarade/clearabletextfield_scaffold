@@ -1,3 +1,15 @@
 Standard Rails scaffolding with JQuery Clearable Text Field plugin. It shows up a cross icon to clear value when user inputs something in a form field and the icon disappears when you clear the field.
 
 http://plugins.jquery.com/project/clearable_text_field
+
+Installing scaffoldhub gem:
+gem install scaffoldhub
+
+if you are using bundler:
+gem 'scaffoldhub'
+and then
+bundle install
+
+Use clearabletextfield scaffold:
+scaffoldhub clearabletextfield person name:string address:string
+
