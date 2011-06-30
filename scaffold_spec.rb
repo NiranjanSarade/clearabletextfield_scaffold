@@ -1,7 +1,7 @@
 Scaffoldhub::Specification.new do
 
   # Github URL where you will post your scaffold - the specified folder must contain this file
-  base_url  'https://github.com/NiranjanSarade/clearabletextfield_scaffold/blob/master'
+  base_url  'https://github.com/NiranjanSarade/clearabletextfield_scaffold'
 
   # The name of your new scaffold: should be a single word
   name 'clearabletextfield'
@@ -13,7 +13,7 @@ Scaffoldhub::Specification.new do
     description 'Standard Rails scaffolding with JQuery Clearable Text Field plugin. It shows up a cross icon to clear value when user inputs something in a form field and the icon disappears when you clear the field.'
 
     # 4x3 aspect ratio screen shot
-    screenshot 'clearabletextfield_screenshot.png'
+    screenshot 'clearabletextfield_screenshot.PNG'
 
     # Tag(s) to help scaffoldhub.org users find your scaffold
     tag 'jquery'
